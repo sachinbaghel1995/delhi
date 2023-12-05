@@ -1,0 +1,30 @@
+// PremiumFeature.scss
+
+.PremiumFeature {
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+    }
+  
+    th, td {
+      padding: 10px 15px;
+      text-align: left;
+      border-bottom: 1px solid #f0f0f0;
+    }
+  
+    th {
+      background-color: #f8f8f8;
+      font-weight: bold;
+    }
+  
+    tr:last-child {
+      td {
+        border-bottom: none;
+      }
+    }
+  }
+  

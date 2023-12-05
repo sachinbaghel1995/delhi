@@ -1,0 +1,47 @@
+// ShowDish.module.scss
+
+.show-dish-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+  }
+  
+  .dish-table {
+    margin-top: 20px;
+  }
+  
+  .table-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+  }
+  
